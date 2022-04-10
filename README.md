@@ -1,9 +1,10 @@
-## Associated with Alexandria University
+# Associated with Alexandria University
 
 ## Descriptive-HTML
 A simple grammar for a declarative language that defines the web page instead of the HTML (JavaCC).
 
-## Grammer
+### Grammer
+```
 create  → "ADD" element
 element → img | header | para | url
 
@@ -23,3 +24,4 @@ font    → "WITH" "FONT" quote sentence quote
 sentence → sentence alphanumeric | 𝛆
 quote   → "“"
 alphanumeric → "0"-"9" | "a"-"z" | "A"-"Z" | "/" | ":" | "."
+```
